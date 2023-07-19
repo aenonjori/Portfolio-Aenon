@@ -1,5 +1,5 @@
 import { FaReact, FaNodeJs, FaAngular } from 'react-icons/fa';
-import { SiMui, SiTailwindcss, SiBootstrap, SiJavascript, SiCss3, SiMongodb, SiExpress, SiHtml5 } from 'react-icons/si';
+import { SiMui, SiTailwindcss, SiBootstrap, SiJavascript, SiCss3, SiMongodb, SiExpress, SiHtml5, SiPython } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
 
 const skills = [
@@ -39,11 +39,6 @@ const skills = [
         color: 'text-[#61DAFB]'
     },
     {
-        name: 'AngularJs',
-        icon: <FaAngular />,
-        color: 'text-[#e6373d]'
-    },
-    {
         name: 'NodeJs',
         icon: <FaNodeJs />,
         color: 'text-[#68A063]'
@@ -61,6 +56,11 @@ const skills = [
     {
         name: 'MongoDB',
         icon: <SiMongodb />,
+        color: 'text-[#4DB33D]'
+    },
+    {
+        name: 'Python',
+        icon: <SiPython />,
         color: 'text-[#4DB33D]'
     },
 ];
